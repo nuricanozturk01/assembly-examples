@@ -48,7 +48,7 @@ segment .text
     CALL    print_number_2_swap  ; print number 2
     
     POPA
-    MOV eax, 0 ; return back to C
+    MOV     eax, 0 ; return back to C
     LEAVE
     RET
     
