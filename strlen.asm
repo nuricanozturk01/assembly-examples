@@ -19,8 +19,6 @@ segment .text
         mov ebx, 0
         mov edx, 0
 
-        mov eax, msg
-
         repeat:
 
             cmp [msg + edx], byte 0
@@ -51,9 +49,7 @@ segment .text
             call exit_program
 
         call exit_program
-
-
-
+        
 exit_program:
     popa
     xor eax, eax
