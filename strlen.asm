@@ -5,7 +5,7 @@
 
 segment .data
     prefix  db  "Message: ", 0
-    msg     db  "nurican ozturk", 0
+    msg     db  "orfgr", 0
     result  db  "Size is: ", 0
 segment .bss
     size resd 1
