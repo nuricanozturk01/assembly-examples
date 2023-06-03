@@ -40,7 +40,7 @@ input_arr:
 
 
 print_arr:
-    mov ecx, 0
+    xor ecx,ecx
     mov ebx, array
 
     print_loop:
